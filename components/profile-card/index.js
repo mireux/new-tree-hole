@@ -41,7 +41,7 @@ Component({
      */
     gotoAuth() {
       wx.navigateTo({
-        url: '/pages/auth/index'
+        url: '/pages/login/index'
       })
     },
 

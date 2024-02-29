@@ -1,4 +1,5 @@
-const baseAPI = 'http://1.94.54.101:5000/v2'
+// const baseAPI = 'http://1.94.54.101:5000/v2'
+const baseAPI = 'http://127.0.0.1:8989'
 const socketAPI = 'ws://1.94.54.101:5000/socket'
 const ossDomain = 'https://img.yejiefeng.com'
 

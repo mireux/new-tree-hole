@@ -1,0 +1,15 @@
+<!--pages/login/index.wxml-->
+<!-- 用户授权 -->
+<view><button class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+  <image class="avatar" src="{{avatarUrl}}"></image>
+</button>
+</view>
+<l-input label="昵称"  placeholder="请输入昵称" type="nickname" bind:lininput="bindKeyInput" required="{{true}}" />
+  <!-- <image class="bg" src="https://img.yejiefeng.com/bg/bg_auth.png" open-type="getUserInfo" /> -->
+  <!-- <text class="title-text">正在申请获得以下权限：</text>
+  <text class="desc-text">获得你的公开信息(昵称、头像等)</text> -->
+  <l-button l-class="btn-auth" bg-color="#337559" width="480" height="80" shape="semicircle" bindtap="auth">登录</l-button>
+
+
+<!-- 消息提示 -->
+<l-message />

@@ -20,7 +20,7 @@
     </view>
 
     <view class="btn-group">
-      <l-button wx:if="{{isOwner}}" bg-color="#337559" shape="semicircle" size="mini" width="180" height="58" bind:lintap="{{user.id ? 'gotoUserEdit' : 'gotoAuth'}}">{{user.id ? '编辑' : '用户授权'}}</l-button>
+      <l-button wx:if="{{isOwner}}" bg-color="#337559" shape="semicircle" size="mini" width="180" height="58" bind:lintap="{{user.id ? 'gotoUserEdit' : 'gotoAuth'}}">{{user.id ? '编辑' : '登录'}}</l-button>
       <navigator wx:if="{{isOwner}}" class="setting" url="/pages/setting/index">
         <view class="child-circle"></view>
       </navigator>
@@ -31,7 +31,7 @@
     <text class="signature">{{user.signature || defaultSignature}}</text>
     <text class="ip-belong" wx:if="{{user && user.ip_belong}}">IP归属地: {{user.ip_belong}}</text>
 
-    <view class="follow-group">
+    <!-- <view class="follow-group">
       <view class="follow" bindtap="gotoFollower">
         <text class="follow-num">{{user.follower_count || '0'}}</text>
         <text class="follow-text">{{isOwner ? '关注我的' : '关注' + m.getGenderText(user.gender) + '的'}}</text>
@@ -40,7 +40,7 @@
         <text class="follow-num">{{user.following_count || '0'}}</text>
         <text class="follow-text">{{isOwner ? '我关注的' : m.getGenderText(user.gender) + '关注的'}}</text>
       </view>
-    </view>
+    </view> -->
   </view>
 </view>
 

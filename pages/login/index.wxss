@@ -1,0 +1,26 @@
+/* pages/login/index.wxss */
+/* .bg {
+  width: 600rpx;
+  height: 400rpx;
+  margin-top: -250rpx;
+} */
+
+.avatar-wrapper {
+  padding: 0;
+  width: 56px !important;
+  border-radius: 8px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #fff;
+}
+
+.avatar {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+
+.btn-auth {
+  margin-left: 120rpx;
+  margin-top: 200rpx;
+}

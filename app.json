@@ -14,7 +14,8 @@
     "pages/follower/index",
     "pages/auth/index",
     "pages/setting/index",
-    "pages/qa/index"
+    "pages/qa/index",
+    "pages/login/index"
   ],
   "window": {
     "backgroundTextStyle": "dark",
